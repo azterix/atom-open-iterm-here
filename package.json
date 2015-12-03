@@ -1,15 +1,15 @@
 {
-  "name": "open-terminal-here",
-  "main": "./lib/open-terminal-here",
-  "version": "0.5.0",
-  "description": "(OS-X Only) Adds a shortcut to Tree View - Open Terminal Here in the context menu",
-  "activationEvents": [
-    "open-terminal-here:open"
-  ],
-  "repository": "https://github.com/Flynsarmy/atom-open-terminal-here",
+  "name": "open-iterm-here",
+  "main": "./lib/open-iterm-here",
+  "version": "0.1.0",
+  "description": "(OS-X Only) Adds a shortcut to Tree View - Open iTerm Here in the context menu. Forked from https://github.com/Flynsarmy/atom-open-terminal-here",
+  "activationCommands": {
+    "atom-workspace": ["open-iterm-here:open"]
+  },
+  "repository": "https://github.com/azterix/atom-open-iterm-here",
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">1.0"
   },
   "dependencies": {}
 }

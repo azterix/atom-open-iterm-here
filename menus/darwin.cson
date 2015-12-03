@@ -1,3 +1,4 @@
 'context-menu':
-  '.platform-darwin .tree-view':
-    'Open Terminal Here': 'open-terminal-here:open'
+    'atom-workspace': [
+      {'label': 'Open iTerm Here', 'command': 'open-iterm-here:open'}
+    ]
